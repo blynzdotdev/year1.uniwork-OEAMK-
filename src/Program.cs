@@ -4,27 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace bmi
+namespace valtozok
 {
     class Program
     {
         static void Main(string[] args)
         {
-            bmi();
+            valtozokegyesitese();
             Console.ReadKey();
         }
-        static void bmi()
+        static void valtozokegyesitese()
         {
-            Console.Write("Testömeg (kg):");
-            string be = Console.ReadLine();
-            int kg = Convert.ToInt32(be);
-            Console.Write("Magasság (cm):");
-            string bee = Console.ReadLine();
-            int cm = Convert.ToInt32(bee);
-            double m = cm / 10;
-            double tti = kg / m * m;
-            Console.WriteLine("tti:" + tti);
-            Console.ReadKey();
+            Console.Write("Család Név:");
+            string fn = Console.ReadLine(); //fn valtozo neve = benne tarolom a csaladi nevet
+            Console.Write("Keresztnév: ");
+            string kn = Console.ReadLine();
+            Console.WriteLine(("{0}, {1}"), fn, kn);
+            Console.WriteLine();
+
+            //--- eredmény: Sallai, Martin
         }
     }
 }
