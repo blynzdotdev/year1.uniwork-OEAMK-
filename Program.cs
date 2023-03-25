@@ -10,11 +10,11 @@ namespace ConsoleApp1_1
     {
         static void Main(string[] args)
         {
-s
+            
             feladat2();
 
             Console.ReadKey();
-            //------------------------------------------
+            //------------------------------------------//
 
 
         }
@@ -41,6 +41,7 @@ s
             else
             {
                 Console.WriteLine("Rossz adat");
+                //vissza adas
             }
         }
     }
