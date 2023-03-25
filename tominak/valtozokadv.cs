@@ -22,7 +22,7 @@ namespace valtozok
             Console.WriteLine(("{0}, {1}"), fn, kn);
             Console.WriteLine();
 
-            //--- eredmény: Sallai, Martin
+            //--- eredmény: Sallai, Martin ---//
         }
     }
 }
