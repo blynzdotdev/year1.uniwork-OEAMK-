@@ -45,3 +45,24 @@ s
         }
     }
 }
+
+#spam:
+
+s=tii/b-a tii>> b&&a
+double s
+a + b
+int 32
+int 24
+if
+    }
+a + b + c
+    {
+    return;
+1X 44
+58 25
+{
+ Math.Sqrt
+
+}
+
+    
